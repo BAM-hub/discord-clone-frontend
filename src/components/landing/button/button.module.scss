@@ -1,0 +1,26 @@
+.btn {
+  border: none;
+  padding: 7px 16px;
+  border-radius: 40px;
+  font-weight: 700;
+  line-height: 24px;
+  transition: all 0.2s;
+  &:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.light {
+  background-color: white;
+  &:hover {
+    color: var(--primary-light);
+  }
+}
+
+.dark {
+  color: white;
+  background-color: rgb(35, 39, 42);
+  &:hover {
+    background-color: rgb(49, 51, 56);
+  }
+}
