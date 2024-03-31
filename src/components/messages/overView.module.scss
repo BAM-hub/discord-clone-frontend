@@ -1,0 +1,115 @@
+aside {
+  min-width: 240px;
+  .cta-container {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    box-shadow: var(--elevation-low);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: inherit;
+    button {
+      text-align: start;
+      width: 100%;
+      height: 28px;
+      overflow: hidden;
+      border-radius: 4px;
+      background-color: var(--background-tertiary);
+      box-shadow: none;
+      color: var(--text-muted);
+      text-overflow: ellipsis;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 24px;
+      white-space: nowrap;
+      border: 0;
+      padding: 4px;
+    }
+  }
+
+  min-height: 100vh;
+  color: white;
+  padding: 0 10px;
+  max-width: fit-content;
+  background-color: var(--background-secondary);
+  position: relative;
+  .nav-title {
+    padding: 18px 8px 4px 18px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+  }
+  .nav-header {
+    padding-top: 52px;
+  }
+  ul {
+    list-style: none;
+    li {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      height: 42px;
+    }
+  }
+  .user-fig {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    background-color: red;
+    border-radius: 100%;
+    svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(35%, 35%);
+    }
+    .status-indecator {
+      position: absolute;
+      width: 13px;
+      height: 13px;
+      display: grid;
+      place-content: center;
+      border-radius: 100%;
+      right: 0;
+      bottom: 0;
+      transform: translate(20%, 10%);
+      background-color: black;
+      div {
+        width: 9px;
+        height: 9px;
+        border-radius: 100%;
+        background-color: black;
+        border: 3px solid grey;
+      }
+    }
+  }
+  .current-user-fig {
+    height: 52px;
+    padding: inherit;
+    background-color: var(--background-secondary-alt);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    .user-status-container {
+      display: flex;
+      align-items: center;
+      span {
+        font-size: 12px;
+        line-height: 1.3333333333333333;
+        font-weight: 400;
+      }
+    }
+
+    .status-container {
+      padding-block: 4px;
+      padding-inline-start: 8px;
+    }
+  }
+}

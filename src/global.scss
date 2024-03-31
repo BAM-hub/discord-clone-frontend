@@ -10,4 +10,12 @@
 :root {
   --primary-light: #5865f2;
   --primary-dark: #404eed;
+  --primary-300: hsl(210 calc(1 * 9.3%) 78.8% / 1);
+  --background-secondary: hsl(220 calc(1 * 6.5%) 18% / 1);
+  --background-secondary-alt: hsl(228 calc(1 * 6.7%) 14.7% / 1);
+  --background-tertiary: hsl(225 calc(1 * 6.3%) 12.5% / 1);
+  --text-muted: hsl(214 calc(1 * 8.1%) 61.2% / 1);
+  --elevation-low: 0 1px 0 hsl(0 calc(1 * 0%) 0.8% / 0.2),
+    0 1.5px 0 hsl(240 calc(1 * 7.7%) 2.5% / 0.05),
+    0 2px 0 hsl(0 calc(1 * 0%) 0.8% / 0.05);
 }
